@@ -1,5 +1,12 @@
 # Orion Book
 
+<a href="https://orion-book.netlify.app/"><img alt="Website" src="https://img.shields.io/netlify/f0f99d3f-95b1-4ce4-b7ae-6d6c8d52eea8?style=for-the-badge&logo=netlify"></a>
+<a href="https://github.com/mwitomski-official/orion-jupyter-book/LICENSE.txt"><img alt="GitHub" src="https://img.shields.io/github/license/mwitomski-official/orion-jupyter-book?style=for-the-badge"></a>
+<a href="https://github.com/mwitomski-official/orion-jupyter-book/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mwitomski-official/orion-jupyter-book?style=for-the-badge"></a>
+<a href="https://orion-book.netlify.app/"><img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fmwitomski-official.github.io%2F"></a>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f0f99d3f-95b1-4ce4-b7ae-6d6c8d52eea8/deploy-status)](https://app.netlify.com/sites/orion-book/deploys)
+
 🌱 The Jupyter book with interesting examples (project Orion).
 
 ## Usage
