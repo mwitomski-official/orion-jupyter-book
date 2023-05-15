@@ -36,21 +36,3 @@ We welcome and recognize all contributions. You can see a list of current contri
 ## Credits
 
 This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
-
-# Errors
-
-- `"sphinx.errors.ExtensionError: Could not import extension sphinx.builders.linkcheck (exception: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with OpenSSL 1.0.2k-fips  26 Jan 2017"`
-- `"ImportError: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with OpenSSL 1.0.2k-fips  26 Jan 2017. See: https://github.com/urllib3/urllib3/issues/2168"`
-
-I added to the new file **vercel.json**
-
-```{
-  "build": {
-    "env": {
-      "OPENSSL_VERSION": "1.1.1"
-    }
-  }
-}
-```
-
-I added **urllib3** to **requirements.txt**
