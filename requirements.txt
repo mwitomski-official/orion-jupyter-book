@@ -2,4 +2,4 @@ jupyter-book
 jupytext
 matplotlib
 numpy
-urllib3
+urllib3==1.26.7
